@@ -4,6 +4,7 @@ const Func_03 = (props) => { // accepting props from parent
   return (
     <div>
         <h2>Hello {props.name}</h2> {/* using the props accepted from the parent */}
+        {props.children}
     </div>
   )
 }
