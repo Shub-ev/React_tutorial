@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Func_01 from './components/Func_01' // default import from Func_01 which can be imported by any name
+import { Func_02 } from './components/Func_02' //Func_02 is not default export hence it should be name specified
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Func_01/>
+      <Func_02/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
