@@ -8,9 +8,9 @@ import Func_03 from './components/Func_03'
 const App = () => {
   return (
     <div>
-      <Func_01/>
+      <Func_01/> {/* Fuctional component */}
       <Func_02/>
-      <Class_01/>
+      <Class_01/> {/* Class component */}
       <Class_02/>
       <Func_03 name="Shubham"/> {/* Passing props to the component */}
     </div>
