@@ -4,6 +4,7 @@ import { Func_02 } from './components/Func_02' //Func_02 is not default export h
 import Class_01 from './components/Class_01'
 import Class_02 from './components/Class_02'
 import Func_03 from './components/Func_03'
+import Class_03 from './components/Class_03'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       {/* <Func_03 name="Batman"/> Passing props to the component */}
       {/* <Func_03 name="Raju"><button>Button</button></Func_03> passing child component to a Custom component */}
 
-      
+      <Class_03/>
     </div>
   )
 }
