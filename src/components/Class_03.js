@@ -4,7 +4,7 @@ export default class Class_03 extends Component{
     constructor(){
         super();
 
-        this.state = {
+        this.state = { // this function initializes the satate for the current  class component
             name : "Shubham"
         }
     }

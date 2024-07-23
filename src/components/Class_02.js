@@ -1,3 +1,5 @@
+//create react element using React.createElement()
+
 import React, { Component } from "react";
 
 export default class Class_02 extends Component {

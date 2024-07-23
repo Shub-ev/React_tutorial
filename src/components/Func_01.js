@@ -7,3 +7,13 @@ export default function Func_01() { //this is an default export i.e. this fuctio
         </div>
     )
 }
+
+export const Func_001 = () => { // this is a named export so while import named import should be done 
+    return(
+        <div>
+            <h2>
+                This is a named export
+            </h2>
+        </div>
+    )
+}
