@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 class Class_05 extends Component{
-    constructor(){   //constructor of the current class
+    constructor(){ //constructor of the current class
         super();   // constructor of the parrent class {Component}
 
         this.state = {   //setting the states

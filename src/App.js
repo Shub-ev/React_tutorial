@@ -7,6 +7,8 @@ import Func_02 from './components/Func_02'
 import Class_03 from './components/Class_03'
 import Class_04 from './components/Class_04'
 import Class_05 from './components/Class_05'
+import Class_06 from './components/Class_06'
+import Func_03 from './components/Func_03'
 
 const App = () => {
   return (
@@ -19,8 +21,11 @@ const App = () => {
       {/* <Func_02 name="Raju"><button>Button</button></Func_02> passing child component to a Custom component
       {/* <Class_03/> class  */}
       {/* <Class_04 name="Apple" surname="Sugar"><button>Click</button></Class_04> */}
+      {/* <Class_05/> updating the state in the class */}
+      {/* <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring */}
+      {/* <Func_03 name="Shubham" surname="Gharage"/> functional component implementing destructuring */}
 
-      <Class_05/>
+      
     </div>
   )
 }
