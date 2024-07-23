@@ -9,6 +9,8 @@ import Class_04 from './components/Class_04'
 import Class_05 from './components/Class_05'
 import Class_06 from './components/Class_06'
 import Func_03 from './components/Func_03'
+import Func_04 from './components/Func_04'
+import Class_07 from './components/Class_07'
 
 const App = () => {
   return (
@@ -24,8 +26,9 @@ const App = () => {
       {/* <Class_05/> updating the state in the class */}
       {/* <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring */}
       {/* <Func_03 name="Shubham" surname="Gharage"/> functional component implementing destructuring */}
+      {/* <Func_04/> event handling in functional component */}
 
-      
+      <Class_07/>
     </div>
   )
 }
