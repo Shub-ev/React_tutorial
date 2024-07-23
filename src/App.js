@@ -8,12 +8,14 @@ import Func_03 from './components/Func_03'
 const App = () => {
   return (
     <div>
-      <Func_01/> {/* Fuctional component */}
-      <Func_02/>
-      <Class_01/> {/* Class component */}
-      <Class_02/>
-      <Func_03 name="Batman"/> {/* Passing props to the component */}
-      <Func_03 name="Raju"><button>Button</button></Func_03> {/* passing child component to a Custom component */}
+      {/* <Func_01/> Fuctional component */}
+      {/* <Func_02/> */}
+      {/* <Class_01/> {/* Class component */}
+      {/* <Class_02/> */}
+      {/* <Func_03 name="Batman"/> Passing props to the component */}
+      {/* <Func_03 name="Raju"><button>Button</button></Func_03> passing child component to a Custom component */}
+
+      
     </div>
   )
 }
