@@ -1,16 +1,17 @@
 import React from 'react'
-import Func_01 from './components/Func_01' // default import from Func_01 which can be imported by any name
-import { Func_001 } from './components/Func_01' //Func_02 is not default export hence it should be name specified
-import Class_01 from './components/Class_01'
-import Class_02 from './components/Class_02'
-import Func_02 from './components/Func_02'
-import Class_03 from './components/Class_03'
-import Class_04 from './components/Class_04'
-import Class_05 from './components/Class_05'
-import Class_06 from './components/Class_06'
-import Func_03 from './components/Func_03'
-import Func_04 from './components/Func_04'
-import Class_07 from './components/Class_07'
+import Func_01 from './components/Functional/Func_01' // default import from Func_01 which can be imported by any name
+import { Func_001 } from './components/Functional/Func_01' //Func_02 is not default export hence it should be name specified
+import Class_01 from './components/ClassComp/Class_01'
+import Class_02 from './components/ClassComp/Class_02'
+import Func_02 from './components/Functional/Func_02'
+import Class_03 from './components/ClassComp/Class_03'
+import Class_04 from './components/ClassComp/Class_04'
+import Class_05 from './components/ClassComp/Class_05'
+import Class_06 from './components/ClassComp/Class_06'
+import Func_03 from './components/Functional/Func_03'
+import Func_04 from './components/Functional/Func_04'
+import Class_07 from './components/ClassComp/Class_07'
+import Try from './components/ClassComp/Try'
 
 const App = () => {
   return (
@@ -29,6 +30,11 @@ const App = () => {
       {/* <Func_04/> event handling in functional component */}
 
       <Class_07/>
+
+
+
+
+      {/* <Try/> */}
     </div>
   )
 }
