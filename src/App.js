@@ -12,6 +12,9 @@ import Func_03 from './components/Functional/Func_03'
 import Func_04 from './components/Functional/Func_04'
 import Class_07 from './components/ClassComp/Class_07'
 import Try from './components/ClassComp/Try'
+import Class_08 from './components/ClassComp/Class_08'
+import Class_09_Parent from './components/ClassComp/Class_09_Parent'
+import Func_06 from './components/Functional/Func_06'
 
 const App = () => {
   return (
@@ -21,18 +24,18 @@ const App = () => {
       {/* <Class_01/> {/* Class component */}
       {/* <Class_02/> */}
       {/* <Func_02 name="Batman" surname="Patil"/> Passing props to the component */}
-      {/* <Func_02 name="Raju"><button>Button</button></Func_02> passing child component to a Custom component
+      {/* <Func_02 name="Raju"><button>Button</button></Func_02> passing child component to a Custom component */}
       {/* <Class_03/> class  */}
       {/* <Class_04 name="Apple" surname="Sugar"><button>Click</button></Class_04> */}
       {/* <Class_05/> updating the state in the class */}
-      <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring
+      {/* <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring */}
       {/* <Func_03 name="Shubham" surname="Gharage"/> functional component implementing destructuring */}
       {/* <Func_04/> event handling in functional component */}
+      {/* <Class_07/>   event handling in class component */}
+      {/* <Class_08/> event binding in class component */}
+      {/* <Class_09_Parent/>  passing method as a prop and getting value from child to parent */}
 
-      <Class_07/>
-
-
-
+      <Func_06/>
 
       {/* <Try/> */}
     </div>

@@ -1,16 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class Try extends Component {
+const Try = () => {
+    return(
+        <div>
 
-    handleClick() {
-        console.log(this);
-    }
-
-    render() {
-        return (
-            <div>
-                <button onClick={ this.handleClick }>Click</button>
-            </div>
-        )
-    }
+        </div>
+    )
 }
+
+export default Try;
