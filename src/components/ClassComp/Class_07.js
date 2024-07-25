@@ -35,7 +35,7 @@ export default class Class_07 extends Component {
                 Button events count : 
                 <button onClick={this.handleClick1}>Click</button>
 
-                {/* <button onClick={() => this.handleClick2()}>Click</button>    ***********This is inefficient*********/}
+                {/* <button onClick={() => this.handleClick2()}>Click</button> */}
 
                 
             </div>
