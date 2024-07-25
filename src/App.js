@@ -25,7 +25,7 @@ const App = () => {
       {/* <Class_03/> class  */}
       {/* <Class_04 name="Apple" surname="Sugar"><button>Click</button></Class_04> */}
       {/* <Class_05/> updating the state in the class */}
-      {/* <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring */}
+      <Class_06 name="Shubham" surname="Gharage"/> class component implementing destructuring
       {/* <Func_03 name="Shubham" surname="Gharage"/> functional component implementing destructuring */}
       {/* <Func_04/> event handling in functional component */}
 
