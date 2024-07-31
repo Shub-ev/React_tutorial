@@ -15,6 +15,7 @@ import Try from './components/ClassComp/Try'
 import Class_08 from './components/ClassComp/Class_08'
 import Class_09_Parent from './components/ClassComp/Class_09_Parent'
 import Func_06 from './components/Functional/Func_06'
+import Class_10 from './components/ClassComp/Class_10'
 
 const App = () => {
   return (
@@ -34,8 +35,9 @@ const App = () => {
       {/* <Class_07/>   event handling in class component */}
       {/* <Class_08/> event binding in class component */}
       {/* <Class_09_Parent/>  passing method as a prop and getting value from child to parent */}
+      {/* <Func_06/> *  conditional rendering in react webpage */} 
 
-      <Func_06/>
+      <Class_10 name = "Shubham"/>
 
       {/* <Try/> */}
     </div>
