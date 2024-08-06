@@ -16,6 +16,7 @@ import Class_08 from './components/ClassComp/Class_08'
 import Class_09_Parent from './components/ClassComp/Class_09_Parent'
 import Func_06 from './components/Functional/Func_06'
 import Class_10 from './components/ClassComp/Class_10'
+import Class_12 from './components/ClassComp/Class_12'
 
 const App = () => {
   return (
@@ -37,7 +38,9 @@ const App = () => {
       {/* <Class_09_Parent/>  passing method as a prop and getting value from child to parent */}
       {/* <Func_06/> *  conditional rendering in react webpage */} 
 
-      <Class_10 name = "Shubham"/>
+      {/* <Class_10 name = "Shubham"/> */}
+
+      <Class_12/>
 
       {/* <Try/> */}
     </div>

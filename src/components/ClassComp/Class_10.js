@@ -1,11 +1,20 @@
 // component life cycle methods 
 // 1.Mounting   2.Updating   3.UnMounting   4.ErrorHandling
 
+
 //1. Mounting methods
+// These methods are called in the following order when an instance of a component is being created and inserted into the DOM
 // A. constructor()
-// B. get
-// C. render()
-// d. 
+// B. getDrivedStateFromProps()
+// C. render()  // only required method in the class component
+// d. componentDidMount()
+
+// In React, a side effect is any action that occurs outside the scope of a component's rendering process and affects something 
+// external to the component. These actions can include:
+// A. Data fetching: Making API calls to retrieve data from external sources.
+// B. DOM manipulation: Directly interacting with the DOM outside of React's rendering process.
+// C. Subscriptions: Setting up listeners for events, such as websockets or timers.
+// D. Updating global state: Modifying variables or state outside of the component's local scope.
 
 import React, { Component } from 'react'
 import Class_10_child from './Class_10_child';
