@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Class_01 extends Component { // class component is created by extending Component class
 
     constructor(){ // constructor for current class
-        super() // constructor call to the parent
+        super() // constructor call to the base class (Component)
 
         this.state = {} // takes an object and which sets the states for instantiated object
     }

@@ -17,6 +17,7 @@ import Class_09_Parent from './components/ClassComp/Class_09_Parent'
 import Func_06 from './components/Functional/Func_06'
 import Class_10 from './components/ClassComp/Class_10'
 import Class_12 from './components/ClassComp/Class_12'
+import Func_07_Class_Parent from './components/Functional/Func_07_Class_Parent'
 
 const App = () => {
   return (
@@ -39,10 +40,11 @@ const App = () => {
       {/* <Func_06/> *  conditional rendering in react webpage */} 
 
       {/* <Class_10 name = "Shubham"/> */}
-
-      <Class_12/>
+      {/* <Class_12/>   this shows the react Fragment*/}
 
       {/* <Try/> */}
+      {/* <Class_13_Parent/>  this shows PureClassComponents*/}
+      {/* <Func_07_Class_Parent/> */}
     </div>
   )
 }

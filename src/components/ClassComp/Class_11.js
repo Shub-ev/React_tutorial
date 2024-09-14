@@ -14,7 +14,7 @@ export class Class_11 extends Component {
     return (
       <div>
 
-      </div
+      </div>
     )
   }
 }

@@ -10,7 +10,11 @@ export default class Class_02 extends Component {
         className: "text",
         id: "id",
       },
-      React.createElement("h1", null, "This is a text")
+      React.createElement(
+        "h1", 
+        null, 
+        ["This is a text", React.createElement("div", {style: {backgroundColor: "red"}}, "This is a div")]
+      )
     ); //another method create element instead of jsx
     //syntax: createElement(type, props, ...children)
   }
