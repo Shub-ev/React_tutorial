@@ -1,4 +1,4 @@
-// component life cycle methods 
+// component life cycle phases 
 // 1.Mounting   2.Updating   3.UnMounting   4.ErrorHandling
 
 

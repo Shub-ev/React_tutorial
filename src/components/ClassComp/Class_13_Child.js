@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export class Class_13_Child extends Component {
+// this is a child component to prent compo. hence if parent re-render this also re-renders 
+// as in normal components shouldComponentUpdate() is true by default
+
+export default class Class_13_Child extends Component {
   render() {
+    console.log("Normal Component Render!");
     return (
       <div>Name is {this.props.name}</div>
     )
-  
+  } 
 }
-
-export default Class_13_Child

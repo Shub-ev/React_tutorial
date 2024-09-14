@@ -7,7 +7,6 @@ const Func_04 = () => {
 
     return (
         <div>
-            
             <button onClick={handleClick}>Click</button> {/* event handler */}
         </div>
     )

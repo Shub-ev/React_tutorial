@@ -58,8 +58,8 @@ export default class Class_08 extends Component {
                 onClickHandler */}
 
             {/*  ************ 03 ************** */}
-            {/* <button onClick={this.onClickHandler}>Click</button>  ******just same as 00 but now we have binded this with onClickHandler 
-                in class constructor*/}
+            {/* <button onClick={this.onClickHandler}>Click</button>  ******just same as 00 but now we have binded this with 
+                onClickHandler in class constructor*/}
 
             {/*  ************ 04 ************** */}
             <button onClick={this.onClickHandlerArrow}>Click</button>

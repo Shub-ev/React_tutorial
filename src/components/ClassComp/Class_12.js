@@ -4,6 +4,7 @@
 // ex. building table from different tr and th
 
 import React, { Component } from 'react'
+
 export class Class_12 extends Component {
     constructor(){
         super();
@@ -29,7 +30,7 @@ export class Class_12 extends Component {
 
             //   ********    03    ********
             // to avoid both the issues we use react fragement which also acts as parent element i.e. hold all the child elements as one
-            // <>  // in this technique we cannit pass key attribute
+            // <>  // in this technique we cannot pass key attribute
             //     <div>
             //         <h1>This is a text</h1>
             //         <span>this is also a text</span>
@@ -38,7 +39,7 @@ export class Class_12 extends Component {
 
             // or 
 
-            <React.Fragment>
+            <React.Fragment>  {/* fragment can not have any attributes */}
                 <div>
                     <h1>This is a text</h1>
                     <span>this is also a text</span>
